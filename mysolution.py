@@ -9,3 +9,8 @@ def walk(dirname):
 		else:
 			walk(path)
 
+
+dirname = "."
+
+walk(dirname)
+
